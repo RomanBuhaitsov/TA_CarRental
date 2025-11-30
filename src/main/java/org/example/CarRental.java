@@ -66,7 +66,6 @@ public class CarRental {
             return false;
         }
 
-        // TODO: add test
         String currDate = db.getCurrentDate();
         if(currDate == null){
             System.out.println("Start date must be set to reserve a car");
